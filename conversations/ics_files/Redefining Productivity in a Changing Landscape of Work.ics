@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Apple Inc.//Mac OS X 10.11.6//EN
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:EDT
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:EST
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/New_York:20200416T114500
+UID:4atl3tdg8j5m0s9hp9v0rdfh04@google.com
+DTSTAMP:20200413T162726Z
+DESCRIPTION:When: Thursday\, April 16\, 8 AM PST (11 AM EST\, 17:00 Cent
+ ral European time)\n\nWhere: Zoom Meeting\n\nPassword: ""\n\nSpeaker: Sh
+ amsi Iqbal\n\nAbstract: Research in the area of productivity and multita
+ sking has to adapt to the changing world anticipating what the future ma
+ y look like - in particular taking into account growing needs of balanci
+ ng work and life. The natural direction that work was taking only a few 
+ weeks ago has been challenged in recent times\, and established norms an
+ d practices are adapting as a results. Are these changes for the better?
+  Are we gaining a much more realistic view of what true balance of work 
+ and life may look like?\n\nMy research has focused on redefining product
+ ivity where doing work is no longer confined to being at a desk and the 
+ need to do things while on the go and in divided attention situations co
+ ntinues to dominate. Artificial intelligence is also fundamentally chall
+ enging what we envision as the future of work. Because now we can have m
+ achine intelligence supplement human intelligence - people can be empowe
+ red to attempt and achieve beyond what was once thought possible. Howeve
+ r\, to blend in the needs of emotional and physical well-being\, we need
+  to look at this challenge using a human-centric approach. This work bri
+ ngs together theories from cognitive science\, human computer interactio
+ n and artificial intelligence. I will discuss a few ongoing projects in 
+ this area and present directions for research and product development.\n
+ \nBio: Dr. Shamsi T. Iqbal is a Principal Researcher in the Information 
+ and Data Sciences (IDEAS) group in Microsoft Research\, AI. Her primary 
+ expertise is in the domain of Attention Management and Interruptions. Mo
+ re recently her work has focused on redefining productivity\, introducin
+ g novel ways of being productive and balancing productivity and well-bei
+ ng in interaction design. Her work on driving and distraction has been f
+ eatured in the New York Times\, MIT Tech Review among others\, and also 
+ featured in the King 5 News (NBC affiliate in the Seattle area). Shamsi 
+ has served on many organizing and program committees for HCI conferences
+ \, is currently serving as an ACM TOCHI Associate Editor and will be ser
+ ving as the General Co-Chair for UIST 2020. She received her Ph.D. in Co
+ mputer Science from the University of Illinois at Urbana-Champaign in 20
+ 08 and Bachelors in Computer Science and Engineering from Bangladesh Uni
+ versity of Engineering and Technology in 2001\n
+STATUS:CONFIRMED
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:Redefining Productivity in a Changing Landscape of Work
+DTSTART;TZID=America/New_York:20200416T110000
+CREATED:20200413T161907Z
+LAST-MODIFIED:20200413T162726Z
+END:VEVENT
+END:VCALENDAR
